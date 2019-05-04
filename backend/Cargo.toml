@@ -1,0 +1,10 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["Jason Cardinal <jason.cardinal@timiosdevelopment.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.20"
+lcs-image-diff = { version = "0.1", default-features = false }
+rocket = "0.4.0"
